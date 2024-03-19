@@ -36,7 +36,7 @@ html {
 /* have a look into body once after we done with rest of the styling  */
 body {
   margin: 0 auto;
-  /* padding: 0 32px; */
+  padding: 0 32px;
   min-width: 320px;
   background-color: var(--backgroundColor);
 }
@@ -311,7 +311,7 @@ main {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 12rem;
+  height: 6rem;
 }
 
 .custom-shape-divider-bottom-1696038172 .shape-fill {
@@ -505,7 +505,7 @@ main .section-hero {
 .section-why--choose .text-align--right .why-choose--div {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: start;
 }
 
 .section-why--choose .text-align--left .why-choose--div {
@@ -665,7 +665,8 @@ footer {
   color: var(--backgroundColor);
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
-  margin-top: 6.4rem;
+  /* margin-top: 6.4rem; */
+  padding: 0 50px;
 }
 
 .footer-container .content_1 img {
@@ -857,7 +858,9 @@ footer {
   color: #fff;
   padding: 1rem 2rem;
 }
-
+.hero-btn{
+  margin-bottom: 50px;
+}
 .add-to-cart-button,
 .contact-btn,
 .hero-btn a {
@@ -1229,4 +1232,7 @@ footer {
 .navbar-brand a span{
   color: #1b7b96;
   padding-left: 10px;
+}
+.section-common--heading h2{
+  margin-bottom: 30px; 
 }
