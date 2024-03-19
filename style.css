@@ -740,7 +740,8 @@ footer {
 #productContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 4.8rem;
+  /* gap: 4.8rem; */
+  gap: 2.0rem;
 
   & .information {
     display: flex;
